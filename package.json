@@ -26,7 +26,8 @@
   },
   "scripts": {
     "lint": "eslint src --fix",
-    "build": "babel src --out-dir lib"
+    "build": "babel src --out-dir lib",
+    "prepublishOnly": "npm run lint && npm run build"
   },
   "dependencies": {
     "@babel/runtime": "^7.6.3",
