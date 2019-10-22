@@ -1,0 +1,13 @@
+.nyc_output/
+coverage/
+lib/
+node_modules/
+test/
+
+.editorconfig
+.gitignore
+.nycrc
+.travis.yml
+*.sublime-*
+yarn-error.log
+yarn.lock

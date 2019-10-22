@@ -1,0 +1,10 @@
+# Dependency directories
+node_modules/
+
+yarn-error.log
+
+lib/
+
+.nyc_output
+coverage
+*.sublime-*
