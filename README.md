@@ -10,6 +10,14 @@ In case you’re using `node-migrate` for migrating your Redis, it makes sense t
 $ yarn add migrate-state-store-redis redis
 ```
 
+## Requirements
+
+| version  | Node.js  | peerDependencies   |
+|----------|:--------:|:------------------:|
+|    2.x   |    10+   |   redis >=^3.0.0   |
+|    1.x   |     8+   |   redis >=^2.8.0   |
+
+
 ## Usage
 
 ### Basic
