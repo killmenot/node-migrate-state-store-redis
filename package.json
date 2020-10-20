@@ -1,17 +1,22 @@
 {
   "name": "migrate-state-store-redis",
+  "description": "Redis-based state storage implementation for the migrate aka. node-migrate framework",
   "version": "1.0.1",
+  "license": "MIT",
   "main": "index.js",
+  "files": [
+    "lib/**.*",
+    "index.js"
+  ],
   "engines": {
     "node": ">=8"
   },
-  "description": "Redis-based state storage implementation for the migrate aka. node-migrate framework",
+
   "keywords": [
     "redis",
     "migrate",
     "state-store"
   ],
-  "license": "MIT",
   "author": {
     "name": "Alexey Kucherenko",
     "url": "https://github.com/killmenot"
