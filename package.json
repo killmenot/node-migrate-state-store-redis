@@ -56,6 +56,6 @@
     "husky": "^4.3.0"
   },
   "peerDependencies": {
-    "redis": "^2.8.0"
+    "redis": ">=3.x"
   }
 }
