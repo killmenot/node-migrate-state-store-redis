@@ -1,11 +1,17 @@
 ## CHANGELOG
 
+<a name="2.0.1"></a>
+### 2.0.1 (2021-02-08)
+
+* fix: redis connection issue by passing url (@lavluda)
+
+
 <a name="2.0.0"></a>
 ### 2.0.0 (2020-10-20)
 
 * chore: drop node.js 8/9 support
 * chore(deps): update redis as peer dependencies to 3.0.0
-* chore: bump deps=
+* chore: bump deps
 
 
 <a name="1.0.0"></a>
