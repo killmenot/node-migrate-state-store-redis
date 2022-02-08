@@ -27,7 +27,7 @@ export default class RedisStateStore {
   }
 
   async save(set, fn) {
-    const db = redis.createClient()
+    const db = redis.createClient({url: this.storeUrl})
 
     await db.setAsync(this.lastRunKey, set.lastRun)
     await db.setAsync(this.migrationKey, JSON.stringify(set.migrations))
