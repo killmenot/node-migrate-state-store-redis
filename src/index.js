@@ -13,7 +13,7 @@ export default class RedisStateStore {
   }
 
   async load(fn) {
-    const db = redis.createClient()
+    const db = redis.createClient({url: this.storeUrl})
 
     const lastRun = await db.getAsync(this.lastRunKey) || ''
     const dbData = await db.getAsync(this.migrationKey) || ''
